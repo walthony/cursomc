@@ -3,11 +3,9 @@ package com.walthony.cursomc.repositories;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.walthony.cursomc.domain.Categoria;
-
-
+import com.walthony.cursomc.domain.Pagamento;
 
 @Repository
-public interface CategoriaRepository extends JpaRepository<Categoria, Integer> {
+public interface PagamentoRepository extends JpaRepository<Pagamento, Integer> {
 
 }
